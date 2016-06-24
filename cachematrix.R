@@ -4,9 +4,6 @@
 ## This function creates a special "matrix" object that can cache 
 ## its inverse.
 
-##my_fun3 <- function(x) x
-
-##my_fun3("10")
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
@@ -22,8 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
         getinverse = getinverse)
 }
 
-hi <- makeCaceheMatrix(matrix(c(4,3,3,2), nrow=2, ncol=2))
-hi
 ## This function computes the inverse of the special "matrix" 
 ## returned by makeCacheMatrix above. If the inverse has already 
 ## been calculated (and the matrix has not changed), then 
